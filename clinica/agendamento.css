@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Barra de navegação */
+.navbar {
+  background-color: #0a2c5f;
+  padding: 15px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Seções gerais */
+section {
+  padding: 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+h2 {
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Calendário de dias */
+.calendario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.calendario button {
+  width: 50px;
+  height: 50px;
+  background-color: #f0f4f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Horários disponíveis */
+.horarios {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.horarios button {
+  padding: 10px 20px;
+  background-color: #f0f4f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Botão de finalizar */
+.btn-finalizar {
+  background-color: #e63946;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Seção de suporte */
+.suporte {
+  background-color: #f9f9f9;
+  text-align: center;
+}

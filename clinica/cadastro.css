@@ -1,0 +1,108 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Estilo do corpo da página */
+body {
+  background-color: #f0f4f8; /* tom suave para fundo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ocupa toda a altura da tela */
+}
+
+/* Container que agrupa os dois painéis */
+.container {
+  display: flex;
+  width: 900px;
+  height: 600px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1); /* sombra leve */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Painel de login à esquerda */
+.login-panel {
+  background-color: #0a2c5f; /* azul escuro */
+  color: white;
+  width: 35%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-panel h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Botão de login */
+.btn-login {
+  background-color: #e63946; /* vermelho vibrante */
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Painel de cadastro à direita */
+.register-panel {
+  background-color: white;
+  width: 65%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Logo da clínica */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+/* Texto abaixo do logo */
+.subtitle {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Estilo dos campos do formulário */
+.form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Botão de cadastro */
+.btn-register {
+  background-color: #e63946;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Frase final da clínica */
+.tagline {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+}

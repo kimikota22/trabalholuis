@@ -1,0 +1,110 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar padrão */
+.navbar {
+  background-color: #0a2c5f;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #e63946;
+}
+
+.navbar-brand p {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #e63946;
+}
+
+/* Área principal */
+.chat-wrapper {
+  padding: 40px;
+}
+
+.chat-title {
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+.welcome {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Container do chat */
+.chat-container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.chat-header {
+  background-color: #0a2c5f;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.chat-history {
+  height: 300px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
+.chat-footer {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-send-button {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.chat-send-button:hover {
+  background-color: #c72d3b;
+}

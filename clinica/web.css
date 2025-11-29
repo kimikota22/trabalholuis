@@ -1,0 +1,80 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Estilo da barra de navegação */
+.navbar {
+  background-color: #0a2c5f;
+  padding: 15px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Seção principal com imagem e título */
+.hero {
+  text-align: center;
+  padding: 40px;
+  background-color: #1c3e61;
+}
+
+.hero h1 {
+  color: #e63946;
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Seções de conteúdo */
+section {
+  padding: 40px;
+}
+
+.consultas h2,
+.vacinas h2 {
+  color: #0a2c5f;
+  margin-bottom: 20px;
+}
+
+.consulta {
+  margin-bottom: 30px;
+}
+
+.consulta h3 {
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+.consulta ul,
+.vacinas ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.vacinas p {
+  margin-bottom: 15px;
+}

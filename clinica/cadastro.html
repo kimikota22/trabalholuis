@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - Medical Clinic</title>
+  <!-- Link para o arquivo de estilos -->
+  <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+  <!-- Container principal que divide a tela em duas partes -->
+  <div class="container">
+
+    <!-- Painel lateral para quem já tem conta -->
+    <div class="login-panel">
+      <h2>Você já tem uma conta?</h2>
+      <!-- Botão que leva para a página de login -->
+      <a href="login.html" class="btn-login">Logar</a>
+    </div>
+
+    <!-- Painel de cadastro -->
+    <div class="register-panel">
+      <!-- Logo e nome da clínica -->
+      <div class="logo">
+        <div class="icon">➕🩺</div>
+        <h1>MEDICAL CLINIC</h1>
+      </div>
+
+      <!-- Texto de orientação -->
+      <p class="subtitle">Escolha seu perfil e preencha com suas informações</p>
+
+      <!-- Formulário de cadastro -->
+      <form class="form">
+        <input type="text" placeholder="Usuário" required>
+        <input type="email" placeholder="E-mail" required>
+        <input type="password" placeholder="Senha" required>
+        <input type="password" placeholder="Confirmar Senha" required>
+        <!-- Botão para enviar o formulário -->
+        <a href="web"><button type="submit" class="btn-register">Cadastre-se</button></a>
+      </form>
+
+      <!-- Frase de impacto da clínica -->
+      <p class="tagline">"Cuidando da sua saúde com excelência, acolhimento e compromisso com o bem-estar."</p>
+    </div>
+  </div>
+</body>
+</html>
